@@ -13,7 +13,7 @@ const Content = () => {
   };
 
   return (
-    <Grid container spacing={2}>
+    <Grid container style={{marginTop: 30}}spacing={2}>
       {coffeMakerList.map(coffeMakerObj => getCoffeMakerCard(coffeMakerObj))}
     </Grid>
   );
